@@ -21,7 +21,10 @@ document.write("<br>" + temp);
 
 // Multiple variables in one statement
 var mage_one = "Frieren", mage_two = "Ren", warrior = "Stark";
-document.writeln("<br>" + mage_one);
+document.write("<br>" + mage_one);
+
+var sent1 = "This is the beginning of the string", sent2 = " and this is the end of the string";
+document.write("<br>" + sent1 + sent2);
 
 // Writing an expression
 var math_result = 70 / 70 * 70 + 70 - 70;
