@@ -7,4 +7,8 @@ document.write("Hello, world!");
 
 //Learning how to define a variable.
 var catch_phrase = "Sonic the Hedgehog! The fastest thing alive!";
-document.writeln(catch_phrase);
+document.write(catch_phrase);
+
+//Challenge: Define a variable and set it to the window.alert()
+var alert_message = "Danger, Will Robison!"
+window.alert(alert_message);
