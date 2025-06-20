@@ -17,3 +17,8 @@ function multi_result () {
     let result = 5 * 25;
     document.getElementById("math_multi").innerHTML = "5 * 25 = " + result;
 }
+
+function math_operations () {
+    let result = 70 / 70 * 70 + 70 - 70;
+    document.getElementById("math_all").innerHTML = "70 / 70 * 70 + 70 - 70 = " + result;
+}
