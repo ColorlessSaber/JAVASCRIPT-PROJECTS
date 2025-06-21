@@ -1,3 +1,4 @@
+// Created a function to learn how to create and call a key from a dictionary.
 function favorite_icecream() {
     var icecream_flavors = {
         flavor1: "Oreo Cookie Ice Cream",
