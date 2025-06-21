@@ -34,6 +34,18 @@ document.write(-10 === "-10");
 document.write("<br>"); // place content below on a new line
 document.write(-10 === 10);
 
+// Learning how the AND and OR operators
+document.write("<br>"); // place content below on a new line
+document.write("AND and OR operators"); // Identify what the following logic is on the screen
+document.write("<br>"); // place content below on a new line
+document.write(10 > 5 && -7 < -6);
+document.write("<br>"); // place content below on a new line
+document.write(10 < 5 && -7 < -6);
+document.write("<br>"); // place content below on a new line
+document.write(50 > 51 || 0.25 < 0.26);
+document.write("<br>"); // place content below on a new line
+document.write(50 > 51 || 0.25 > 0.26);
+
 // Learning how to use isNaN()
 function run_true_isnan() {
     document.getElementById("isnan_true").innerHTML = isNaN("marry had a little lamp");
