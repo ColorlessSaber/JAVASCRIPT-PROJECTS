@@ -46,6 +46,14 @@ document.write(50 > 51 || 0.25 < 0.26);
 document.write("<br>"); // place content below on a new line
 document.write(50 > 51 || 0.25 > 0.26);
 
+// Utilizing the NOT operator
+document.write("<br>"); // place content below on a new line
+document.write("NOT operators"); // Identify what the following logic is on the screen
+document.write("<br>"); // place content below on a new line
+document.write(!(60 > 50));
+document.write("<br>"); // place content below on a new line
+document.write(!(60 < 50));
+
 // Learning how to use isNaN()
 function run_true_isnan() {
     document.getElementById("isnan_true").innerHTML = isNaN("marry had a little lamp");
