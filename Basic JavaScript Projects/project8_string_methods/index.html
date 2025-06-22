@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>JavaScript String Methods</title>
+        <script src="./JS/main.js"></script>
+    </head>
+    <body>
+        <!--Concate string method example-->
+        <button onclick="full_sentence()">Click for a sentence.</button>
+        <p id="long_string"></p>
+
+        <!--Slice string method example-->
+        <p id="string_to_slice">Watch this! I am a string that will be sliced at 12 characters in and at 25 character mark</p>
+        <button onclick="slice_string()">Click to slice string</button>
+        <p id="result_string_slice"></p>
+
+        <!--Using the search and toUpperCase methods part of string object-->
+        <h3>Search for a string in paragraph below</h3>
+        <p id="string_to_search">
+            One can cook on and with an open fire. These are some of the ways to cook with fire outside.<br>
+            Cooking meat using a spit is a great way to evenly cook meat. In order to keep meat from burning,<br>
+            it's best to slowly rotate it. Hot stones can be used to toast bread. Coals are hot and can bring things to a boil quickly.<br>
+            If one is very adventurous, one can make a hole in the ground, fill it with coals and place foil-covered meat,<br>
+            veggies, and potatoes into the coals, and cover all of it with dirt. In a short period of time,<br>
+            the food will be baked. Campfire cooking can be done in many ways.
+        </p>
+        <label for="string_to_find">What string should I find:</label>
+        <input type="text" id="string_to_find"><br>
+        <button onclick="find_string()">Start search</button>
+        <p id="search_results"></p>
+
+        <!--using toString method part of number object-->
+        <p id="number_string" onclick="number_to_string()">Click me</p>
+
+        <!--Using the toPercision() to trim number given by user-->
+        <label for="number_to_trim">Given me a long number with significant digits to trim</label>
+        <input type="number" id="number_to_trim"><br>
+        <label for="signif_digits">Tell me how many significant digits to trim down to</label>
+        <input type="number" id="signif_digits"><br>
+        <button onclick="trim_number()">Trim the number</button>
+        <p id="result_number_trim"></p>
+
+        <!--using toFixed() and valueOf()-->
+        <p>What happens if you took the number 4578.56789564 and reduced it to three digits?</p>
+        <button onclick="reduce_number()">Click me to find out!</button>
+        <p id="result_number_reduce"></p>
+    </body>
+</html>
