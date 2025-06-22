@@ -34,7 +34,7 @@
 <!-- About the Repo -->
 ## About the Repo
 The repository contains Tech Academy projects involving the programming langague JavaScript. Learning the synatx of the programming language,
-how it can be utilize with HTML, and other libraries that are commonly used with JavaScript.
+how it can be utilize with HTML, CSS, and other JS libraries that are commonly used with JavaScript.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -42,13 +42,14 @@ how it can be utilize with HTML, and other libraries that are commonly used with
 ## Built With
 * [![JavaScript][javascript-shield]][javascript-url]
 * [![HTML5][html-shield]][html-url]
+* [![CSS][css-shield]][css-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Projects under repo -->
 ## Projects Under Repo
 ### Basic JavaScript Projects
-Contains several sub-folders each containing scripts that show me learning the synatx of JavaScript and how to interact with an HTML file. 
+Contains several sub-folders each containing scripts that show me learning the synatx of JavaScript and how to interact with an HTML and CSS files. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -90,6 +91,8 @@ Please head to my portfolio website and use the contact form to reach out to me:
 [javascript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
 [html-shield]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
 [html-url]: https://html.spec.whatwg.org/multipage/
+[css-shield]: https://img.shields.io/badge/CSS-663399?style=for-the-badge&logo=css&logoColor=white
+[css-url]: https://www.w3.org/Style/CSS/Overview.en.html
 
 [portfolio-url]: https://colorlesssaber.github.io/
 [tech-academy-url]: https://www.learncodinganywhere.com/
