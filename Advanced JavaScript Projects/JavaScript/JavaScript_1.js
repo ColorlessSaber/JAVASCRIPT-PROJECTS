@@ -38,3 +38,37 @@ function color_change(color) {
         button_list[i].style.color = "white";
     }
 }
+
+// Draw an image in the HTML canvas-2 element
+function draw_canvas1() {
+    const canvas = document.getElementById("canvas1");
+    const content = canvas.getContext("2d");
+
+    // Create gradient
+    const gradient = content.createRadialGradient(75,50,5,90,60,100);
+    gradient.addColorStop(0, "red");
+    gradient.addColorStop(1, "white");
+
+    // Fill with gradient
+    content.fillStyle = gradient;
+    content.fillRect(10, 10, 150, 80);
+
+    //Add words to canvas
+    content.font = "30px Arial";
+    content.strokeText("Good morning!", 10, 50)
+}
+
+// draw an image in HTML cavnas-2 element
+function draw_canvas2() {
+    const canvas = document.getElementById("canvas2");
+    const content = canvas.getContext("2d");
+
+    // create a gradient
+    const gradient = content.createLinearGradient(0,0,170,0);
+    gradient.addColorStop(0, "black");
+    gradient.addColorStop(1, "blue");
+
+    // Draw a filled rectangle
+    content.fillStyle = gradient;
+    content.fillRect(20,20,150,100);
+}
