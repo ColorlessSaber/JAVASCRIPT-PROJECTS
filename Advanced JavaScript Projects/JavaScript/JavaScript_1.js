@@ -4,7 +4,7 @@ function calculate_cost() {
     let number_of_gallons = document.getElementById("number-of-gallons").value;
     let total_cost;
     //Calculate the cost
-    switch (fuel_selection.toLowerCase()){ // Makes all the letters be lower case, thus avoid typoes
+    switch (fuel_selection.toLowerCase()){ // Makes all the letters be lower case to cap-error spelling
         case "pluto 3000":
             total_cost = 4500 * number_of_gallons;
             break;
@@ -20,10 +20,21 @@ function calculate_cost() {
         default:
             total_cost = "non selected";
     }
-    if (total_cost == "non selected"){
-        document.getElementById("recipt").innerHTML = "Please select a gas from the list.";
+    // If user selected a fuel from the list, print out the recipt
+    if (total_cost != "non selected"){
+        document.getElementById("recipt").innerHTML = "Your total cost comes to: $" + total_cost + ". Will that be cash or card?";
     }
     else {
-        document.getElementById("recipt").innerHTML = "Your total cost comes to: $" + total_cost + ". Will that be cash or card?";
+        // Inform the user they have not selected a fuel from the list
+        document.getElementById("recipt").innerHTML = "Please select a gas from the list.";
+    }
+}
+
+// Change the buttons to a different color based input
+function color_change(color) {
+    var button_list = document.getElementsByClassName("btn-color")
+    for (var i = 0; i< button_list.length; i++){
+        button_list[i].style.backgroundColor = color;
+        button_list[i].style.color = "white";
     }
 }
