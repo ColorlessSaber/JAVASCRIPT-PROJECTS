@@ -1,0 +1,31 @@
+
+/* *** Stylize the form in HTML_2.html *** */
+h2 {
+    text-align: center;
+}
+
+/* form sylizing */
+form {
+    text-align: center;
+}
+
+input[type=text] {
+    width: 300px;
+    margin-top: 12px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100px;
+    height: 25px;
+    font-size: 18px;
+    margin-top: 12px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=submit]:hover {
+    background-color: rgba(9, 239, 9, 0.70);
+}
