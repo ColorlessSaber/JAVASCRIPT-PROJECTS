@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JS Advance 2</title>
+    <meta charset="UTF-8">
+    <script src="./JavaScript/JavaScript_3.js" defer></script>
+    <style>
+        div.container {
+            text-align: center;
+        }
+
+        ul {
+            display: inline-block;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <!--header with descreption-->
+    <h2 style="text-align: center;">Caselok's Magic Wand Shop!</h2>
+    <p style="text-align: center;">
+        Welcome to Caselok's magic wand shop!<br>
+        We have a wide selection of wands, from affordable to ones crafted by the finest of wand makers.<br>
+        Select a wand below for more details and pricing.
+    </p>
+
+    <!--Wand Selection list-->
+    <section>
+        <h3 style="text-align: center;">Wand Selection</h3>
+        <div class="container">
+            <ul>
+                <li onclick="display_wand_info(this)">Ivy Wood Wand</li>
+                <li onclick="display_wand_info(this)">Drago Blood Wand</li>
+                <li onclick="display_wand_info(this)">Twilight Tear Wand</li>
+                <li onclick="display_wand_info(this)">Fairy Wing Wand</li>
+            </ul>
+        </div>
+    </section>
+
+    <!--Wand Infomation Display-->
+    <section>
+        <p id="wand-info" style="text-align: center;"></p>
+    </section>
+
+
+</body>
+
+</html>
