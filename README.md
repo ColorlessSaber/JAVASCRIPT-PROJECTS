@@ -23,6 +23,8 @@
         <li><a href="#projects-under-repo">Projects Under Repo</a></li>
         <ul>
             <li><a href="#basic-javascript-projects">Basic JavaScript Projects</a></li>
+            <li><a href="#advanced-javascript-projects">Advanced JavaScript Projects</a></li>
+            <li><a href="#tic-tac-toe-project">Tic-Tac-Toe Project</a></li>
         </ul>
         <li><a href="#license">License</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -50,6 +52,12 @@ how it can be utilize with HTML, CSS, and other JS libraries that are commonly u
 ## Projects Under Repo
 ### Basic JavaScript Projects
 Contains several sub-folders each containing scripts that show me learning the synatx of JavaScript and how to interact with an HTML and CSS files. 
+
+### Advanced JavaScript Projects
+Learning several more advanced JavaScript techniques involving HTML code.
+
+### Tic-Tac-Toe Project
+Created the classic game Tic-Tac-Toe using HTML, CSS, and JavaScript. It demastrates how JavaScript can be used to create a dynamic website, or this case a game the user can play on the web.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
