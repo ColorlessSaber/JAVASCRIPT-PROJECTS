@@ -25,6 +25,8 @@
             <li><a href="#basic-javascript-projects">Basic JavaScript Projects</a></li>
             <li><a href="#advanced-javascript-projects">Advanced JavaScript Projects</a></li>
             <li><a href="#tic-tac-toe-project">Tic-Tac-Toe Project</a></li>
+            <li><a href='#pizza-project'>Pizza Project</a></li>
+            <li><a href='#ajax'>AJAX</a></li>
         </ul>
         <li><a href="#license">License</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -45,6 +47,7 @@ how it can be utilize with HTML, CSS, and other JS libraries that are commonly u
 * [![JavaScript][javascript-shield]][javascript-url]
 * [![HTML5][html-shield]][html-url]
 * [![CSS][css-shield]][css-url]
+* [![XAMPP][xampp-shield]][xampp-shield]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -54,10 +57,18 @@ how it can be utilize with HTML, CSS, and other JS libraries that are commonly u
 Contains several sub-folders each containing scripts that show me learning the synatx of JavaScript and how to interact with an HTML and CSS files. 
 
 ### Advanced JavaScript Projects
-Learning several more advanced JavaScript techniques involving HTML code.
+Learning several more advanced JavaScript techniques involving HTML code. An example the Calculator challenge, which required a script JavaScript to create a working calculator that can take in
+user's inputs and calculate the results.
 
 ### Tic-Tac-Toe Project
 Created the classic game Tic-Tac-Toe using HTML, CSS, and JavaScript. It demastrates how JavaScript can be used to create a dynamic website, or this case a game the user can play on the web.
+
+### Pizza Project
+Utilizing advanced JavaScript techniques to calculate the cost of the pizza the user selected--size, vegetable toppins, meat toppings--and display the "recipt" to the user that shows the cose
+and what they picked from the options. 
+
+### AJAX
+Introduction to AJAX using the XAMPP environment.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,6 +112,8 @@ Please head to my portfolio website and use the contact form to reach out to me:
 [html-url]: https://html.spec.whatwg.org/multipage/
 [css-shield]: https://img.shields.io/badge/CSS-663399?style=for-the-badge&logo=css&logoColor=white
 [css-url]: https://www.w3.org/Style/CSS/Overview.en.html
+[xampp-shield]: https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white
+[xampp-url]: https://www.apachefriends.org/index.html
 
 [portfolio-url]: https://colorlesssaber.github.io/
 [tech-academy-url]: https://www.learncodinganywhere.com/
