@@ -27,6 +27,7 @@
             <li><a href="#tic-tac-toe-project">Tic-Tac-Toe Project</a></li>
             <li><a href='#pizza-project'>Pizza Project</a></li>
             <li><a href='#ajax'>AJAX</a></li>
+            <li><a href='#jquery'>jQuery</a></li>
         </ul>
         <li><a href="#license">License</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -48,6 +49,7 @@ how it can be utilize with HTML, CSS, and other JS libraries that are commonly u
 * [![HTML5][html-shield]][html-url]
 * [![CSS][css-shield]][css-url]
 * [![XAMPP][xampp-shield]][xampp-shield]
+* [![jQuery][jquery-shield]][jquery-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -69,6 +71,9 @@ and what they picked from the options.
 
 ### AJAX
 Introduction to AJAX using the XAMPP environment.
+
+### jQuery
+A simple project that takes a pre-built website and adding jQuery code to it to add styling, dynamic affects as the mouse moves over elements, and create a collapsible FAQ section.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,6 +119,8 @@ Please head to my portfolio website and use the contact form to reach out to me:
 [css-url]: https://www.w3.org/Style/CSS/Overview.en.html
 [xampp-shield]: https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white
 [xampp-url]: https://www.apachefriends.org/index.html
+[jquery-shield]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[jquery-url]: https://jquery.com/
 
 [portfolio-url]: https://colorlesssaber.github.io/
 [tech-academy-url]: https://www.learncodinganywhere.com/
