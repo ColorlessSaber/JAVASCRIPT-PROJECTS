@@ -28,6 +28,7 @@
             <li><a href='#pizza-project'>Pizza Project</a></li>
             <li><a href='#ajax'>AJAX</a></li>
             <li><a href='#jquery'>jQuery</a></li>
+            <li><a href='#react'>React</a></li>
             <li><a href='#to-do-app'>To-Do App</a></li>
         </ul>
         <li><a href="#license">License</a></li>
@@ -51,6 +52,7 @@ how it can be utilize with HTML, CSS, and other JS libraries that are commonly u
 * [![CSS][css-shield]][css-url]
 * [![XAMPP][xampp-shield]][xampp-shield]
 * [![jQuery][jquery-shield]][jquery-url]
+* [![React][react-shield]][react-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -75,6 +77,9 @@ Introduction to AJAX using the XAMPP environment.
 
 ### jQuery
 A simple project that takes a pre-built website and adding jQuery code to it to add styling, dynamic affects as the mouse moves over elements, and create a collapsible FAQ section.
+
+### React
+Brief introduction to using React library, alon with using JSX.
 
 ### To-Do App
 Using HTMl, CSS, and JavaScript, created a simple To-Do app that allows the user to add and remove tasks.
@@ -125,6 +130,8 @@ Please head to my portfolio website and use the contact form to reach out to me:
 [xampp-url]: https://www.apachefriends.org/index.html
 [jquery-shield]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [jquery-url]: https://jquery.com/
+[react-shield]: https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black
+[react-url]: https://react-cn.github.io/react/index.html
 
 [portfolio-url]: https://colorlesssaber.github.io/
 [tech-academy-url]: https://www.learncodinganywhere.com/
