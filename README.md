@@ -28,6 +28,7 @@
             <li><a href='#pizza-project'>Pizza Project</a></li>
             <li><a href='#ajax'>AJAX</a></li>
             <li><a href='#jquery'>jQuery</a></li>
+            <li><a href='#to-do-app'>To-Do App</a></li>
         </ul>
         <li><a href="#license">License</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -74,6 +75,9 @@ Introduction to AJAX using the XAMPP environment.
 
 ### jQuery
 A simple project that takes a pre-built website and adding jQuery code to it to add styling, dynamic affects as the mouse moves over elements, and create a collapsible FAQ section.
+
+### To-Do App
+Using HTMl, CSS, and JavaScript, created a simple To-Do app that allows the user to add and remove tasks.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
